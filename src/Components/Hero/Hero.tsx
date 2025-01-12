@@ -38,6 +38,7 @@ function Hero() {
 
       {/* hero section */}
       <div
+        id="hero"
         className={`flex gap-3 flex-col md:flex-row justify-between items-center px-5 md:px-8 lg:px-12 w-full mt-10 lg:mt-0 relative top-24 transition-transform duration-300 `}
       >
         <div className="text-white flex flex-col justify-start items-start gap-5 sm:gap-10 w-full md:w-[60%] xl:w-[50%]">

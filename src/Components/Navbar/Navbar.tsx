@@ -39,7 +39,11 @@ function Navbar() {
         </div>
         <div>
           <ul className="md:flex justify-center items-center gap-6 text-[15px] font-semibold hidden">
-            <li className="text-purple1 cursor-pointer">Home</li>
+            <li className="cursor-pointer hover:text-purple1 text-white duration-300">
+              <Link to="hero" smooth={true} duration={700}>
+                Home
+              </Link>
+            </li>
             <li className="cursor-pointer hover:text-purple1 text-white duration-300">
               <Link to="services" smooth={true} duration={700}>
                 Services
