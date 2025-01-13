@@ -9,7 +9,7 @@ function Services() {
   return (
     <>
       <div
-        className="flex flex-col justify-center items-center mt-36 sm:mt-28 text-white px-5 md:px-8 lg:px-12 gap-20 relative"
+        className="flex flex-col justify-center items-center mt-36 sm:mt-28 text-white px-5 md:px-8 lg:px-12 2xl:px-52 gap-20 relative"
         id="services"
       >
         <div className="flex flex-col sm:flex-row justify-between items-center w-full relative">

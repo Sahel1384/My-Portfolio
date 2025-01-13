@@ -8,7 +8,7 @@ import circle from "../../assets/Group 162526.png";
 function Footer() {
   return (
     <div
-      className="flex flex-col md:flex-row gap-10 md:gap-0 justify-between items-start px-5 md:px-8 lg:px-12 text-white mt-16 sm:mt-28 bg-footer py-32 relative"
+      className="flex flex-col md:flex-row gap-10 md:gap-0 justify-between items-start px-5 md:px-8 lg:px-12 2xl:px-52 text-white mt-16 sm:mt-28 bg-footer py-32 relative"
       id="contact"
     >
       <img
@@ -32,9 +32,27 @@ function Footer() {
           className="flex justify-start items-center gap-5 z-10"
         >
           <img className="cursor-pointer" src={instagram} alt="" />
-          <img className="cursor-pointer" src={linkedin} alt="" />
-          <img className="cursor-pointer" src={github} alt="" />
-          <img className="cursor-pointer" src={email} alt="" />
+          <a
+            href="https://www.linkedin.com/in/mohammad-sahel-yousufzoy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="cursor-pointer" src={linkedin} alt="" />
+          </a>{" "}
+          <a
+            href="https://github.com/Sahel1384"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="cursor-pointer" src={github} alt="" />
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pbsyousufzoydreaminghigh@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="cursor-pointer" src={email} alt="" />
+          </a>
         </div>
       </div>
       <div>

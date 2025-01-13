@@ -17,7 +17,7 @@ function Projects() {
   const [changePage, setPage] = useState<string>("First");
   return (
     <div
-      className="flex flex-col justify-start items-start gap-14 px-5 md:px-8 lg:px-12 mt-32 text-white w-ful relative"
+      className="flex flex-col justify-start items-start gap-14 px-5 md:px-8 lg:px-12 2xl:px-52 mt-32 text-white w-ful relative"
       id="projects"
     >
       <div className="flex items-center justify-between w-full">

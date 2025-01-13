@@ -39,7 +39,7 @@ function Hero() {
       {/* hero section */}
       <div
         id="hero"
-        className={`flex gap-3 flex-col md:flex-row justify-between items-center px-5 md:px-8 lg:px-12 w-full mt-10 lg:mt-0 relative top-24 transition-transform duration-300 `}
+        className={`flex gap-3 flex-col md:flex-row justify-between items-center px-5 md:px-8 lg:px-12 2xl:px-52 w-full mt-10 lg:mt-0 relative top-24 transition-transform duration-300 `}
       >
         <div className="text-white flex flex-col justify-start items-start gap-5 sm:gap-10 w-full md:w-[60%] xl:w-[50%]">
           <div className="w-full">
@@ -71,9 +71,27 @@ function Hero() {
               className="flex justify-center items-center gap-5 z-10"
             >
               <img className="cursor-pointer" src={instagram} alt="" />
-              <img className="cursor-pointer" src={linkedin} alt="" />
-              <img className="cursor-pointer" src={github} alt="" />
-              <img className="cursor-pointer" src={email} alt="" />
+              <a
+                href="https://www.linkedin.com/in/mohammad-sahel-yousufzoy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="cursor-pointer" src={linkedin} alt="" />
+              </a>{" "}
+              <a
+                href="https://github.com/Sahel1384"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="cursor-pointer" src={github} alt="" />
+              </a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=pbsyousufzoydreaminghigh@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="cursor-pointer" src={email} alt="" />
+              </a>
             </div>
             <div data-aos="fade-right">
               <button className="border relative z-10 border-purple1 hover:bg-transparent hover:border-white duration-300 text-white bg-purple1 flex justify-center items-center gap-2 text-[15px] px-3 py-[9px] rounded-[3px]">
@@ -90,7 +108,7 @@ function Hero() {
             data-aos="zoom-in"
             data-aos-duration="2500"
             src={curve}
-            className="absolute left-10 md:left-[450px] lg:left-[600px] top-96 md:top-20"
+            className="absolute left-10 md:left-[450px] lg:left-[600px] 2xl:left-[900px] top-96 2xl:top-[120px] md:top-20"
             alt=""
           />
         </div>
@@ -99,7 +117,7 @@ function Hero() {
             data-aos="zoom-in"
             data-aos-duration="2500"
             src={traingle}
-            className="absolute -bottom-10 md:bottom-10 lg:bottom-20 left-5 md:left-[450px] lg:left-[600px]"
+            className="absolute -bottom-10 md:bottom-10 lg:bottom-20 left-5 md:left-[450px] lg:left-[600px] 2xl:left-[900px]"
             alt=""
           />
         </div>

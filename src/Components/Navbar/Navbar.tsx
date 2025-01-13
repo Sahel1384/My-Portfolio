@@ -30,7 +30,7 @@ function Navbar() {
       {/* navbar */}
       <div
         // data-aos="fade-down"
-        className={`flex justify-between items-center px-5 md:px-8 lg:px-12 py-6 z-50 fixed top-0 left-0 right-0 backdrop-blur-xl bg-transparent transition-transform duration-500 ${
+        className={`flex justify-between items-center px-5 md:px-8 lg:px-12 2xl:px-52 py-6 z-50 fixed top-0 left-0 right-0 backdrop-blur-xl bg-transparent transition-transform duration-500 ${
           visible ? "transform translate-y-0" : "transform -translate-y-full"
         }`}
       >

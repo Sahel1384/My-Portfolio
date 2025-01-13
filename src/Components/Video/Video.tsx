@@ -26,7 +26,7 @@ function Video() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-start gap-5 px-5 md:px-8 lg:px-12 mt-32 w-full text-white relative">
+    <div className="flex flex-col justify-center items-start gap-5 px-5 md:px-8 lg:px-12 2xl:px-52 mt-32 w-full text-white relative">
       <div className="flex flex-col md:flex-row justify-between items-start w-full">
         <div className="w-full">
           <h1
